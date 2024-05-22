@@ -1,0 +1,404 @@
+
+P A U P *
+Version 4.0a (build 168) for Unix/Linux (built on Aug  2 2020 at 07:10:27)
+Mon Apr  8 14:25:47 2024
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz
+    32 CPU cores on 2 sockets
+    Executable built for Intel(R) 64 architecture
+    Compiled using GNU C compiler (gcc) 4.4.7
+    SSE vectorization enabled
+    SSSE3 instructions supported
+    Multithreading enabled using Pthreads
+
+Processing of file "/pfs/tc1/project/tanklab/cbrose1/cusickii/SVDQ/cusickii_8apr24.paup.txt" begins...
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Logging output to file "/pfs/tc1/project/tanklab/cbrose1/cusickii/SVDQ/cusickii_8apr24.log".
+
+Processing of file "/pfs/tc1/project/tanklab/cbrose1/cusickii/SVDQ/cusickii_rmFailed.nex" begins...
+
+Data read in DNA format
+
+Data matrix has 36 taxa, 604219 characters
+Valid character-state symbols: ACGT
+Missing data identified by 'N'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+
+Processing of input file "cusickii_rmFailed.nex" completed.
+
+Analysis using SVDQuartets method
+
+  Number of taxa (lineages) in the analysis = 36
+  No species-membership partition is in effect; assuming one tip per species
+  Quartet sampling = exhaustive (58905 quartets)
+  Tree model = multispecies coalescent (expected rank of flattening matrix for true tree = 10)
+  Using 24 parallel threads on 32 processors
+  Tree search:
+    Quartet assembly algorithm = QFM
+    Local search = none
+
+Quartet assembly completed:
+  Total weight of incompatible quartets = 8633 (14.656%)
+  Total weight of compatible quartets   = 50272 (85.344%)
+  Time used for QFM = 0.97 sec (CPU time = 20.13 sec)
+
+Tree from SVDQuartets analysis (also stored to tree buffer):
+
+/-------------------------------------------------------------------------------------------------------------------- Castilleja cusickii 12219
+|
+|                                                                                                         /---------- Castilleja cusickii 14714
+|                                                                                                /--------+
+|                                                                                                |        \---------- Castilleja cusickii 14910
+|                                                                            /-------------------+
+|                                                                            |                   |        /---------- Castilleja cusickii 14828
+|                                                                            |                   \--------+
+|                                                                            |                            \---------- Castilleja cusickii lutea 14740
+|                                                                            |
+|                                                                   /--------+                            /---------- Castilleja cusickii 14726
+|                                                                   |        |                   /--------+
+|                                                                   |        |                   |        \---------- Castilleja pulchella 14748
+|                                                                   |        |         /---------+
+|                                                         /---------+        \---------+         \------------------- Castilleja cusickii 14907
+|                                                         |         |                  |
+|                                                         |         |                  \----------------------------- Castilleja pulchella 15110
+|                                                         |         |
+|                                               /---------+         |                                     /---------- Castilleja cusickii 14743
+|                                               |         |         \-------------------------------------+
+|                                               |         |                                               \---------- Castilleja cusickii lutea 14738
+|                                      /--------+         |
+|                                      |        |         \---------------------------------------------------------- Castilleja cusickii 14720
+|                                      |        |
+|                            /---------+        \-------------------------------------------------------------------- Castilleja pulchella 09089
+|                            |         |
+|                  /---------+         \----------------------------------------------------------------------------- Castilleja levisecta 16151
+|                  |         |
+|                  |         \--------------------------------------------------------------------------------------- Castilleja cusickii 14716
+|                  |
+|                  |                                                                                      /---------- Castilleja cusickii 14722
+|                  |                                                                   /------------------+
+|                  |                                                                   |                  \---------- Castilleja pulchella 15100
+|                  |                                                                   |
+|                  |                                                         /---------+                  /---------- Castilleja cusickii 14736
+|                  |                                                         |         |         /--------+
+|                  |                                                         |         |         |        \---------- Castilleja cusickii lutea 14755
+|                  |                                                         |         \---------+
+|                  |                                                /--------+                   \------------------- Castilleja cusickii 15081
+|                  |                                                |        |
+|         /--------+                                                |        |         /----------------------------- Castilleja cusickii 14734
+|         |        |                                                |        |         |
+|         |        |                                                |        \---------+                  /---------- Castilleja cusickii 14751
+|         |        |                                      /---------+                  |         /--------+
+|         |        |                                      |         |                  |         |        \---------- Castilleja cusickii 14908
+|         |        |                                      |         |                  \---------+
+|         |        |                                      |         |                            \------------------- Castilleja cusickii lutea 14909
+|         |        |                            /---------+         |
+|         |        |                            |         |         \------------------------------------------------ Castilleja cusickii lutea 14911
+|         |        |                            |         |
+|         |        |                            |         |                                               /---------- Castilleja cusickii 14732
+|         |        |                   /--------+         \-----------------------------------------------+
+|         |        |                   |        |                                                         \---------- Castilleja cusickii lutea 14723
+|         |        |                   |        |
+\---------+        \-------------------+        \-------------------------------------------------------------------- Castilleja cusickii 15099
+          |                            |
+          |                            |                                                                  /---------- Castilleja cusickii lutea 12200
+          |                            \------------------------------------------------------------------+
+          |                                                                                               \---------- Castilleja cusickii lutea 14718
+          |
+          |                                                                                               /---------- Castilleja cusickii 14752
+          |                                                                                      /--------+
+          |                                                                                      |        \---------- Castilleja cusickii lutea 14729
+          |                                                                            /---------+
+          |                                                                            |         |        /---------- Castilleja cusickii 14906
+          |                                                                            |         \--------+
+          |                                                                  /---------+                  \---------- Castilleja sp nov purcells 19386
+          |                                                                  |         |
+          \------------------------------------------------------------------+         \----------------------------- Castilleja pulchella 09088
+                                                                             |
+                                                                             \--------------------------------------- Castilleja cusickii lutea 14731
+
+Time used for SVDQuartet analysis = 2.76 sec (CPU time = 00:01:01.4)
+
+1 tree saved to file "/pfs/tc1/project/tanklab/cbrose1/cusickii/SVDQ/cusickii_8apr24.besttree.tre"
+
+Analysis using SVDQuartets method
+
+  Number of taxa (lineages) in the analysis = 36
+  No species-membership partition is in effect; assuming one tip per species
+  Quartet sampling = exhaustive (58905 quartets)
+  Doing standard bootstrap analysis
+    Initial bootstrap seed = generated automatically
+    Number of bootstrap replicates = 200
+  Tree model = multispecies coalescent (expected rank of flattening matrix for true tree = 10)
+  Using 24 parallel threads on 32 processors
+  Tree search:
+    Quartet assembly algorithm = QFM
+    Local search = none
+  Writing trees for bootstrap replicates to file: cusickii_8apr24.svdqboots.tre
+
+Quartet assembly completed:
+  Total weight of incompatible quartets = 8633 (14.656%)
+  Total weight of compatible quartets   = 50272 (85.344%)
+  Time used for QFM = 6.10 sec (CPU time = 00:02:13.6)
+
+Tree from SVDQuartets analysis (also stored to tree buffer):
+
+/-------------------------------------------------------------------------------------------------------------------- Castilleja cusickii 12219
+|
+|                                                                                                         /---------- Castilleja cusickii 14714
+|                                                                                                /--------+
+|                                                                                                |        \---------- Castilleja cusickii 14910
+|                                                                            /-------------------+
+|                                                                            |                   |        /---------- Castilleja cusickii 14828
+|                                                                            |                   \--------+
+|                                                                            |                            \---------- Castilleja cusickii lutea 14740
+|                                                                            |
+|                                                                   /--------+                            /---------- Castilleja cusickii 14726
+|                                                                   |        |                   /--------+
+|                                                                   |        |                   |        \---------- Castilleja pulchella 14748
+|                                                                   |        |         /---------+
+|                                                         /---------+        \---------+         \------------------- Castilleja cusickii 14907
+|                                                         |         |                  |
+|                                                         |         |                  \----------------------------- Castilleja pulchella 15110
+|                                                         |         |
+|                                               /---------+         |                                     /---------- Castilleja cusickii 14743
+|                                               |         |         \-------------------------------------+
+|                                               |         |                                               \---------- Castilleja cusickii lutea 14738
+|                                      /--------+         |
+|                                      |        |         \---------------------------------------------------------- Castilleja cusickii 14720
+|                                      |        |
+|                            /---------+        \-------------------------------------------------------------------- Castilleja pulchella 09089
+|                            |         |
+|                  /---------+         \----------------------------------------------------------------------------- Castilleja levisecta 16151
+|                  |         |
+|                  |         \--------------------------------------------------------------------------------------- Castilleja cusickii 14716
+|                  |
+|                  |                                                                                      /---------- Castilleja cusickii 14722
+|                  |                                                                   /------------------+
+|                  |                                                                   |                  \---------- Castilleja pulchella 15100
+|                  |                                                                   |
+|                  |                                                         /---------+                  /---------- Castilleja cusickii 14736
+|                  |                                                         |         |         /--------+
+|                  |                                                         |         |         |        \---------- Castilleja cusickii lutea 14755
+|                  |                                                         |         \---------+
+|                  |                                                /--------+                   \------------------- Castilleja cusickii 15081
+|                  |                                                |        |
+|         /--------+                                                |        |         /----------------------------- Castilleja cusickii 14734
+|         |        |                                                |        |         |
+|         |        |                                                |        \---------+                  /---------- Castilleja cusickii 14751
+|         |        |                                      /---------+                  |         /--------+
+|         |        |                                      |         |                  |         |        \---------- Castilleja cusickii 14908
+|         |        |                                      |         |                  \---------+
+|         |        |                                      |         |                            \------------------- Castilleja cusickii lutea 14909
+|         |        |                            /---------+         |
+|         |        |                            |         |         \------------------------------------------------ Castilleja cusickii lutea 14911
+|         |        |                            |         |
+|         |        |                            |         |                                               /---------- Castilleja cusickii 14732
+|         |        |                   /--------+         \-----------------------------------------------+
+|         |        |                   |        |                                                         \---------- Castilleja cusickii lutea 14723
+|         |        |                   |        |
+\---------+        \-------------------+        \-------------------------------------------------------------------- Castilleja cusickii 15099
+          |                            |
+          |                            |                                                                  /---------- Castilleja cusickii lutea 12200
+          |                            \------------------------------------------------------------------+
+          |                                                                                               \---------- Castilleja cusickii lutea 14718
+          |
+          |                                                                                               /---------- Castilleja cusickii 14752
+          |                                                                                      /--------+
+          |                                                                                      |        \---------- Castilleja cusickii lutea 14729
+          |                                                                            /---------+
+          |                                                                            |         |        /---------- Castilleja cusickii 14906
+          |                                                                            |         \--------+
+          |                                                                  /---------+                  \---------- Castilleja sp nov purcells 19386
+          |                                                                  |         |
+          \------------------------------------------------------------------+         \----------------------------- Castilleja pulchella 09088
+                                                                             |
+                                                                             \--------------------------------------- Castilleja cusickii lutea 14731
+
+Bootstrap 50% majority-rule consensus tree
+   (plus other groups compatible with this tree)
+
+/---------------------------------------------------------------------------------------------------------------- Castilleja cusickii 12219(1)
+|
+|                                                                                                      /--------- Castilleja cusickii 14714(2)
+|                                                                                              /--100--+
+|                                                                                              |       \--------- Castilleja cusickii 14910(17)
+|                                                                                     /---82---+
+|                                                                                     |        |       /--------- Castilleja cusickii 14828(13)
+|                                                                                     |        \--84---+
+|                                                                             /--51---+                \--------- Castilleja cusickii lutea 14740(26)
+|                                                                             |       |
+|                                                                             |       |        /----------------- Castilleja cusickii 14726(6)
+|                                                                             |       |        |
+|                                                                    /---35---+       \---98---+       /--------- Castilleja cusickii 14907(15)
+|                                                                    |        |                \--47---+
+|                                                                    |        |                        \--------- Castilleja pulchella 14748(33)
+|                                                           /---31---+        |
+|                                                           |        |        \---------------------------------- Castilleja pulchella 15110(35)
+|                                                           |        |
+|                                                   /--66---+        \------------------------------------------- Castilleja cusickii lutea 14738(25)
+|                                                   |       |
+|                                          /--100---+       \---------------------------------------------------- Castilleja cusickii 14743(10)
+|                                          |        |
+|                                 /--100---+        \------------------------------------------------------------ Castilleja cusickii 14720(4)
+|                                 |        |
+|                         /--76---+        \--------------------------------------------------------------------- Castilleja pulchella 09089(32)
+|                         |       |
+|                /---47---+       \------------------------------------------------------------------------------ Castilleja levisecta 16151(30)
+|                |        |
+|                |        \-------------------------------------------------------------------------------------- Castilleja cusickii 14716(3)
+|                |
+|                |                                                                                     /--------- Castilleja cusickii 14722(5)
+|                |                                                                    /-------82-------+
+|                |                                                                    |                \--------- Castilleja pulchella 15100(34)
+|                |                                                            /--84---+
+|                |                                                            |       |        /----------------- Castilleja cusickii 14736(9)
+|                |                                                            |       |        |
+|                |                                                            |       \---80---+       /--------- Castilleja cusickii 15081(18)
+|                |                                                            |                \--47---+
+|                |                                                   /---39---+                        \--------- Castilleja cusickii lutea 14755(27)
+|                |                                                   |        |
+|        /--61---+                                                   |        |       /-------------------------- Castilleja cusickii 14734(8)
+|        |       |                                                   |        |       |
+|        |       |                                                   |        \--52---+                /--------- Castilleja cusickii 14751(11)
+|        |       |                                          /---54---+                |        /--42---+
+|        |       |                                          |        |                |        |       \--------- Castilleja cusickii 14908(16)
+|        |       |                                          |        |                \---76---+
+|        |       |                                          |        |                         \----------------- Castilleja cusickii lutea 14909(28)
+|        |       |                                  /--96---+        |
+|        |       |                                  |       |        \------------------------------------------- Castilleja cusickii lutea 14911(29)
+|        |       |                                  |       |
+|        |       |                         /--100---+       |                                          /--------- Castilleja cusickii 14732(7)
+|        |       |                         |        |       \--------------------65--------------------+
+|        |       |                         |        |                                                  \--------- Castilleja cusickii lutea 14723(22)
+|        |       |                         |        |
+\--------+       \-----------98------------+        \------------------------------------------------------------ Castilleja cusickii 15099(19)
+         |                                 |
+         |                                 |                                                           /--------- Castilleja cusickii lutea 12200(20)
+         |                                 \----------------------------88-----------------------------+
+         |                                                                                             \--------- Castilleja cusickii lutea 14718(21)
+         |
+         |                                                                                             /--------- Castilleja cusickii 14752(12)
+         |                                                                                     /--37---+
+         |                                                                                     |       \--------- Castilleja cusickii lutea 14729(23)
+         |                                                                            /--100---+
+         |                                                                            |        |       /--------- Castilleja cusickii 14906(14)
+         |                                                                            |        \--66---+
+         |                                                                    /--100--+                \--------- Castilleja sp nov purcells 19386(36)
+         |                                                                    |       |
+         \--------------------------------100---------------------------------+       \-------------------------- Castilleja pulchella 09088(31)
+                                                                              |
+                                                                              \---------------------------------- Castilleja cusickii lutea 14731(24)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1         2         3     3
+123456789012345678901234567890123456          Freq        %
+-----------------------------------------------------------
+...........*.*........*............*           200  100.00%
+....*.***.*....*.**..*....***....*..           200  100.00%
+.*..............*...................           200  100.00%
+.*.*.*...*..*.*.*.......**......*.*.           200  100.00%
+.*.*.*...*..*.*.*.......**.....**.*.           200  100.00%
+...........*.*........*.......*....*           199   99.50%
+...........*.*........**......*....*           199   99.50%
+....*.***.*....*.*****....***....*..           197   98.50%
+.....*........*.................*...           197   98.50%
+....*.***.*....*.*...*....***....*..           193   96.50%
+...................**...............           177   88.50%
+....*...*........*........*......*..           167   83.50%
+............*............*..........           167   83.50%
+....*............................*..           165   82.50%
+.*..........*...*........*..........           163   81.50%
+........*........*........*.........           160   80.00%
+..........*....*...........*........           152   76.00%
+.*.*.*...*..*.*.*.......**...*.**.*.           151   75.50%
+.*...*...*..*.*.*.......**......*.*.           133   66.50%
+.............*.....................*           131   65.50%
+......*..............*..............           130   65.00%
+.**********.*.********..******.****.           122   61.00%
+....*..**.*....*.*........***....*..           108   54.00%
+.......*..*....*...........*........           104   52.00%
+.*...*......*.*.*........*......*...           102   51.00%
+.................*........*.........            94   47.00%
+..............*.................*...            94   47.00%
+.***.*...*..*.*.*.......**...*.**.*.            94   47.00%
+.....*..........................*...            86   43.00%
+..........*....*....................            84   42.00%
+........*.................*.........            79   39.50%
+....*..**.*....*.*........**.....*..            78   39.00%
+...........*..........*.............            74   37.00%
+.*...*......*.*.*........*......*.*.            70   35.00%
+...........*.*.....................*            68   34.00%
+..........*................*........            68   34.00%
+..*........*.*........**......*....*            65   32.50%
+.*.********.*.********..******.****.            63   31.50%
+........................*.........*.            62   31.00%
+.*...*......*.*.*.......**......*.*.            62   31.00%
+...........*.......................*            60   30.00%
+.........*........................*.            60   30.00%
+.........*..............*.........*.            60   30.00%
+.....*........*.................*.*.            59   29.50%
+...........*..........*............*            55   27.50%
+....*..**.*....*.*...*....***....*..            44   22.00%
+....*...*.*....*.*........**.....*..            43   21.50%
+.*.********.*.********..*****..****.            40   20.00%
+....*...*........*........*.*....*..            40   20.00%
+.*...*...*..*.*.*........*......*.*.            38   19.00%
+...............*...........*........            38   19.00%
+....*...*.*....*.*........***....*..            36   18.00%
+........*........*..................            26   13.00%
+.....*........*.........*.......*.*.            25   12.50%
+...*....................*...........            25   12.50%
+....*...*........*........*.........            24   12.00%
+....*.***.*....*.***.*....***....*..            23   11.50%
+...*.....*..........................            21   10.50%
+.......*.......*....................            20   10.00%
+.....*........*.....................            20   10.00%
+..*..........................*......            19    9.50%
+...*.....*..............*.........*.            18    9.00%
+....*..**.*....*.*...*....**.....*..            18    9.00%
+.....................*......*.......            18    9.00%
+.*..........*...*...................            16    8.00%
+.*..............*........*..........            16    8.00%
+.....*......*.*..........*......*...            16    8.00%
+.......*.............*..............            16    8.00%
+..*........*.*........**.....**....*            16    8.00%
+....*............*........*......*..            16    8.00%
+....*.*.*.*....*.*...*....***....*..            16    8.00%
+.........*..............*...........            16    8.00%
+....*.....................*......*..            15    7.50%
+......*..............*......*.......            15    7.50%
+.......*....................*.......            14    7.00%
+...........*.*........**.....**....*            11    5.50%
+.**********.*.********..*****..****.            11    5.50%
+.......*.......*...........*........            11    5.50%
+......*.....................*.......            10    5.00%
+
+111 groups at (relative) frequency less than 5% not shown
+
+Bootstrap consensus tree stored to tree buffer (replacing previously stored tree)
+
+Trees from bootstrap replicates written to treefile: /pfs/tc1/project/tanklab/cbrose1/cusickii/SVDQ/cusickii_8apr24.svdqboots.tre
+
+Time used for SVDQuartet analysis = 00:07:57 (CPU time = 02:53:07.4)

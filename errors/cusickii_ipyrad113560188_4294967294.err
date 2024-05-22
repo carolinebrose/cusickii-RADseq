@@ -1,0 +1,6 @@
+ipyrad.assemble.utils.IPyradError: 
+Error: fastq sequence files in sorted_fastq_path could not be found.
+Please check that the location was entered correctly and that a wild
+card selector (*) was used to select all or a subset of files.
+You entered: /pfs/tc1/project/tanklab/cbrose1/cusickii/ipyrad/trimmedFastqs*fq.gz
+
